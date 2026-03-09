@@ -2,6 +2,12 @@
 
 This repository assembles multiple trading data sources into a reconciled workbook and an interactive Streamlit dashboard for monitoring options performance and risk. The pipeline combines a manually maintained challenge ledger, a normalized sheet of supplemental trades, and a broker activity export, then reconciles them per ticker to produce portfolio-level KPIs.
 
+### Live Dashboard
+
+Access the Streamlit dashboard here:
+
+https://tradeaudit.streamlit.app/
+
 ### Repository Contents
 
 - `Spread_Anyl.ipynb` – end-to-end reconciliation that builds the consolidated `TradingMasterData.xlsx` workbook. It cleans challenge data, parses broker activities, matches trades, and summarizes gains per ticker. 【F:Spread_Anyl.ipynb†L885-L2478】
